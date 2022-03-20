@@ -21,9 +21,12 @@
         <link href="css/style.css" rel="stylesheet">
 
         <style>
-            carousel-caption.d-flex.flex-row.align-items-end.justify-content-center {
+            .carousel-caption.d-flex.flex-row.align-items-end.justify-content-center {
             
-                background-color: rgba(0, 0, 0, 0);
+                background-color: rgba(0, 0, 0, 0)!important;
+            }
+            .flex-column.justify-content-center{
+
             }
         </style>
     </head>
@@ -84,8 +87,11 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="w-100" src="img/book.jpeg" alt="Image">
-                                <div class="carousel-caption d-flex flex-row align-items-end justify-content-center">
-                                    <div class="flex-column justify-content-center">
+                                <div class="carousel-caption d-flex flex-row align-items-end justify-content-center" >
+                                    <div class="flex-column justify-content-center" style="
+                                    background-color: rgba(32, 44, 69, 0.7);
+                                    padding: 1%;
+                                    border-radius: 1%;">
                                         <h2 class="mb-3 text-white font-weight-bold">Wake up! your'e a Vacationer</h2>
                                         <div class="d-flex text-white justify-content-center">
                                             <small class="mr-2"><i class="fa fa-calendar-alt"></i> 07-12-2021</small>
